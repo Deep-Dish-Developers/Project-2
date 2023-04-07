@@ -2,13 +2,14 @@
 h2 {
   margin: 0;
   font-size: 22px;
+  font-weight: bold;
+  text-align: center;
   color: #0C2D44;
 }
 
 h3{
   padding: 23px 15px;
   font-size: 17px;
-  font-weight: bold;
   text-align: center;
   color: #1D303E;
 }
@@ -125,6 +126,29 @@ nav a:hover {
 .active {
   background-color: #04AA6D;
   color: white;
+}
+
+.index_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.index_main img {
+  width: 40%;
+  max-width: 600px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.index_main img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 
