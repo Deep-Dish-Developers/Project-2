@@ -1,5 +1,6 @@
 img {
   object-fit: cover;
+  float: left;
 }
 
 nav {
@@ -8,7 +9,6 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  position: fixed;
   top: 0;
   left: 0;
 }
