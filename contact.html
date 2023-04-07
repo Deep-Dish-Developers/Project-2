@@ -12,7 +12,7 @@
     <img src="media/ISUD_Logo.png" alt="The logo of the ISUD">
     <h1 class= "header">The International Society for Universal Dialogue</h1>
   </header>
-  
+
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -23,12 +23,12 @@
       <li><a href="contact.html" class = "active">Contact</a></li>
     </ul>
   </nav>
-  
+
   <main>
-    <h2>Thank you for your interest in ISUD.</h2>
-    <h3>To contact us please reach us.</h3>
-    <section id = "signup">
-	    <form id="signup-form" method="get" action="https://example.com/dip_dish" autocomplete="on">
+    <h2>Thank you for your interest in ISUD!</h2>
+    <h3>Please submit the form if you have any thought on our team.</h3>
+    <section id = "contact">
+	    <form id="contact-form" method="POST" action="https://example.com/dip_dish" autocomplete="on">
         <h3>Get delicious recipes delivered to your inbox every week!</h3>
         <div class="form-group">
           <label for="firstname">First Name:</label>
@@ -43,18 +43,16 @@
           <input id="email" type="email" name="email" placeholder="paige@example.com" required>
         </div>
         <div class="form-group">
-          <label for="password">Password:</label>
-          <input id="password" type="password" name="password" placeholder="6 digits" required>
-        </div>
-        <div class="form-group">
           <label for="message">Message:</label>
           <textarea id="message" type="feedback" name="message"></textarea>
         </div>
-        <button type="submit">Sign up</button>
+        <button type="submit" onclick="return confirmSubmit()">Submit</button>
       </form>
     </section>
   </main>
 
+  <script src="js/script.js" async></script>
+  <script src="js/site.js"></script>
 
 </body>
 </html>
