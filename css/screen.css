@@ -1,3 +1,7 @@
+img {
+  object-fit: cover;
+}
+
 nav {
   background-color: #FFFFFF;
   padding: 10px;
