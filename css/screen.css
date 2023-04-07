@@ -2,13 +2,14 @@
 h2 {
   margin: 0;
   font-size: 22px;
+  font-weight: bold;
+  text-align: center;
   color: #0C2D44;
 }
 
 h3{
   padding: 23px 15px;
   font-size: 17px;
-  font-weight: bold;
   text-align: center;
   color: #1D303E;
 }
