@@ -127,6 +127,29 @@ nav a:hover {
   color: white;
 }
 
+.index_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.index_main img {
+  width: 40%;
+  max-width: 600px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.index_main img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
 
 
 @media screen and (min-width: 768px) {
