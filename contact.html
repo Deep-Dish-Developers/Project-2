@@ -28,7 +28,7 @@
     <h2>Thank you for your interest in ISUD!</h2>
     <h3>Please submit the form if you have any thought on our team.</h3>
     <section id = "contact">
-	    <form id="contact-form" method="get" action="https://example.com/dip_dish" autocomplete="on">
+	    <form id="contact-form" method="POST" action="https://example.com/dip_dish" autocomplete="on">
         <h3>Get delicious recipes delivered to your inbox every week!</h3>
         <div class="form-group">
           <label for="firstname">First Name:</label>
@@ -46,7 +46,7 @@
           <label for="message">Message:</label>
           <textarea id="message" type="feedback" name="message"></textarea>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="return confirmSubmit()">Submit</button>
       </form>
     </section>
   </main>
