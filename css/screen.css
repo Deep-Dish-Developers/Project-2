@@ -178,6 +178,18 @@ nav a:hover {
   justify-content: center;
 }
 
+footer {
+  background-color: green;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 40px;
+  color: #1D303E;
+}
+
+#copyright{
+  font-size: 14px;
+}
+
 @media screen and (min-width: 768px) {
   header {
     text-align: center;
