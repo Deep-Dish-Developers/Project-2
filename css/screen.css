@@ -7,7 +7,7 @@ h2 {
   color: #0C2D44;
 }
 
-h3{
+h3 {
   padding: 23px 15px;
   font-size: 17px;
   text-align: center;
@@ -69,7 +69,6 @@ button[type="submit"]:hover {
   color: #498630;
 }
 
-
 img {
   object-fit: cover;
   float: left;
@@ -97,8 +96,7 @@ nav {
   position: relative;
 }
 
-nav ul li{
-
+nav ul li {
   list-style: none;
 }
 
@@ -127,7 +125,6 @@ nav a.icon {
   margin-right: 10px;
   margin-bottom: 20px;
 }
-
 
 p {
   margin-top: 20px;
@@ -173,10 +170,8 @@ nav a:hover {
   justify-content: center;
 }
 
-
 @media screen and (min-width: 768px) {
-
-header {
+  header {
     text-align: center;
   }
 
@@ -187,52 +182,52 @@ header {
   form {
     max-width: 700px;
   }
-  h3{
+
+  h3 {
     font-size: 21px;
   }
 
-nav {
-  background-color: #FFFFFF;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
+  nav {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
 
-nav img {
-  height: 40px;
-}
+  nav img {
+    height: 40px;
+  }
 
-nav ul {
-  width: 100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  float: right;
-}
+  nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
 
-nav ul li {
-  display: inline-block;
-  padding: 2% 4% 2% 4%;
-}
+  nav ul li {
+    display: inline-block;
+    padding: 2% 4% 2% 4%;
+  }
 
-nav ul li:hover{
-  background-color: grey;
-}
+  nav ul li:hover {
+    background-color: grey;
+  }
 
-nav ul li:active{
-  background-color: #CDCDCD;
-}
-nav ul li a {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-}
+  nav ul li:active {
+    background-color: #CDCDCD;
+  }
 
-
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   form {
