@@ -290,4 +290,36 @@ footer {
     margin: 0 20% 0 20%;
     font-size: 25px;
   }
+  
+
+  nav img {
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    width: 100%;
+    /*margin-top: 0;
+    margin-left: 0;*/
+    margin: 0 3% 0 0;
+  }
+
+  /*#navImgContainer{
+    width: 200%;
+    height: auto;
+    float: left;
+  }*/
+  nav ul {
+    column-count: 7;
+    list-style: none;
+    margin: 1%;
+    padding: 0;
+    display: block;
+    float: right;
+  }
+
+  nav ul li {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: center;
+  }
 }
