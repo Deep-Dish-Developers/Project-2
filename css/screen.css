@@ -44,7 +44,7 @@ main {
 
 form {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .form-group {
@@ -225,6 +225,28 @@ footer {
 
 #contact.hidden {
   display: block;
+}
+
+#contact-button{
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 500;
+  display: block;
+  width: 60%;
+  background-color: #498630;
+  color: #F1E2CA;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-button:hover {
+  background-color: #F1E2CA;
+  color: #498630;
 }
 
 
