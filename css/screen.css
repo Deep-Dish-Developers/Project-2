@@ -220,6 +220,15 @@ footer {
   color: #1D303E;
 }
 
+#contact {
+  display: none;
+}
+
+#contact.hidden {
+  display: block;
+}
+
+
 @media screen and (min-width: 768px) {
   header {
     text-align: center;
@@ -284,7 +293,7 @@ footer {
   form {
     max-width: 950px;
   }
-  
+
   #whyContact{
     width: 60%;
     margin: 0 20% 0 20%;
