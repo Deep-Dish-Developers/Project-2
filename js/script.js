@@ -6,3 +6,10 @@ function confirmSubmit() {
     return false;
   }
 }
+
+const contactForm = document.getElementById('contact');
+const contactButton = document.getElementById('contact-button');
+
+contactButton.addEventListener('click', function() {
+  contactForm.classList.toggle('hidden');
+});
