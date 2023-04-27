@@ -124,6 +124,9 @@ header h1 {
 .topnav {
   overflow: hidden;
   position: relative;
+  background-color: #498630;
+  color: #F1E2CA;
+  border: none;
 }
 
 .topnav #myLinks{
@@ -182,7 +185,7 @@ nav a:hover {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #498630;
   color: white;
 }
 
@@ -266,9 +269,14 @@ footer {
 @media screen and (min-width: 768px) {
 	h1 {
 		font-size: 2.2rem;
+    margin:40px;
 	}
-  header {
+  h1.header img{
+    height: 40px;
+  }
+  h1.header {
     text-align: center;
+    height: 40px;
   }
 
   main {
@@ -284,38 +292,40 @@ footer {
   }
 
   nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    float: right;
+    width: 25%;
+    margin: 25px;
+    overflow-x: hidden;   
   }
 
   nav img {
-  height: 40px;
+    height: 40px;
   }
 
   nav ul {
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    display: block;
+    justify-content: left;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    background: gainsboro;
+    position: fixed;
   }
 
 	nav li {
-  display: inline-block;
-  margin: 0 20px;
+    display: inline-block;
 	}
 
-	nav a {
-	text-decoration: none;
+  nav a {
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
 	}
 
   nav ul li {
-    display: inline-block;
-    padding: 1% 2% 1% 2%;
+    display: block;
   }
 
   nav ul li:hover {
@@ -338,6 +348,9 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  body{
+    z-index: 0;
+  }
 	h1{
 		font-size: 2.4rem;
 	}
@@ -346,14 +359,36 @@ footer {
   }
 
 	header {
-	width: 80%;
-	margin: 40px auto 30px auto;
+	  width: 80%;
+	  margin: 40px auto 30px auto;
 	}
 
   #whyContact{
     width: 60%;
     margin: 0 20% 0 20%;
     font-size: 25px;
+  }
+  .topnav #myLinks {
+    display: block;
+    position: static;
+  }
+  .topnav a {
+    position: static;
+    float: left;
+    display: block;
+    padding: 20px 4.5%;
+  }
+  .topnav ul{
+    position: static;
+  }
+  nav{
+    position: static;
+    width: 100%;
+    margin: 25px 0;
+  }
+  .topnav a.icon {
+    display: none;
+    z-index: 0;
   }
 
 
