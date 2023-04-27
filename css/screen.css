@@ -42,7 +42,7 @@ img {
 
 main {
   padding: 20px;
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 form {
@@ -197,10 +197,10 @@ nav a.icon {
 }
 
 .board-member h2 {
-	font-size: 1rem;
+  font-size: 1rem;
   font-weight: bold;
   margin: 0;
-	  text-align: left;
+  text-align: left;
 }
 
 .board-member p {
@@ -208,7 +208,6 @@ nav a.icon {
   margin: 5px 0 0;
   color: #666;
 }
-
 
 
 ::-webkit-input-placeholder {
@@ -219,8 +218,8 @@ nav a.icon {
   display: none;
 }
 
-.about_page div{
-	margin-top: 14px;
+.about_page div {
+  margin-top: 14px;
 }
 
 .about_page button {
@@ -379,10 +378,10 @@ footer {
     text-align: center;
     height: 40px;
   }
-	
-	h2 {
-  font-size: 1.3rem;
-}
+
+  h2 {
+    font-size: 1.3rem;
+  }
 
   p {
     font-size: 1.25rem;
@@ -396,7 +395,7 @@ footer {
     font-size: 1rem;
   }
 
-	
+
   main {
     padding: 15px;
   }
@@ -452,20 +451,20 @@ footer {
     text-decoration: none;
     font-weight: bold;
   }
-	
-	.board-member img {
-  width: 80px;
-  height: 80px;
-  margin-right: 20px;
-}
 
-.board-member h2 {
-	font-size: 1.2rem;
-}
+  .board-member img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
 
-.board-member p {
-  font-size: 1rem;
-}
+  .board-member h2 {
+    font-size: 1.2rem;
+  }
+
+  .board-member p {
+    font-size: 1rem;
+  }
 
   #whyContact {
     width: 80%;
@@ -476,9 +475,10 @@ footer {
     width: 50px;
     height: 50px;
   }
-	.about_page div{
-	margin-top: 32px;
-}
+
+  .about_page div {
+    margin-top: 32px;
+  }
 
 }
 
@@ -494,11 +494,11 @@ footer {
   p {
     font-size: 1.3rem;
   }
-	
-		h2 {
-  font-size: 1.5rem;
-}
-	
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
   form {
     max-width: 950px;
   }
@@ -518,14 +518,14 @@ footer {
     margin: 0 20% 0 20%;
     font-size: 25px;
   }
-	
-	.board-member h2 {
-	font-size: 1.3rem;
-}
 
-.board-member p {
-  font-size: 1.1rem;
-}
+  .board-member h2 {
+    font-size: 1.3rem;
+  }
+
+  .board-member p {
+    font-size: 1.1rem;
+  }
 
   .topnav #myLinks {
     display: block;
@@ -564,6 +564,5 @@ footer {
     width: 100px;
     height: 100px;
   }
-	
-	
+
 }
