@@ -185,6 +185,10 @@ nav a.icon {
   top: 0;
 }
 
+::-webkit-input-placeholder {
+  font-size: 12px;
+}
+
 .inactive a{
   background-color: #d3d3d3;
 	color: white;
@@ -340,6 +344,10 @@ input[type="text"]:focus, textarea:focus {
 	li {
 		font-size: 1.25rem;
 	}
+	
+	::-webkit-input-placeholder {
+  font-size: 1rem;
+}
 	
   main {
     padding: 15px;
