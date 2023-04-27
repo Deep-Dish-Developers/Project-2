@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="js/site.js"></script>
-  <script src="js/script.js" async></script>
-	<link rel="stylesheet" href="css/meyers-reset.css">
-	<link rel="stylesheet" href="css/screen.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Contact | ISUD</title>
-</head>
-<body>
-  <header>
-    <img src="media/logo.png" alt="The logo of the ISUD">
-    <h1 class= "header">The International Society for Universal Dialogue</h1>
-  </header>
-
-  <nav>
-    <div class="topnav">
-      <a href="index.html" class = "ISUD">ISUD</a>
-      <div id="myLinks">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-us.html">About</a></li>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/site.js"></script>
+    <script src="js/script.js" async></script>
+    <link rel="stylesheet" href="css/meyers-reset.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact | ISUD</title>
+  </head>
+	
+  <body>
+	
+    <header>
+      <img src="media/logo.png" alt="The logo of the ISUD">
+      <h1 class= "header">The International Society for Universal Dialogue</h1>
+    </header>
+		
+    <nav>
+      <div class="topnav">
+        <a href="index.html" class = "ISUD">ISUD</a>
+        <div id="myLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
             <li class="inactive"><a href="#">Events</a></li>
             <li class="inactive"><a href="#">Journal</a></li>
             <li class="inactive"><a href="#">Membership</a></li>
-          <li><a href="contact.html" class = "active">Contact</a></li>
-        </ul>
-      </div>
-      <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
+            <li><a href="contact.html" class = "active">Contact</a></li>
+          </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
         <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </nav>
-
-  <main>
-    <section id = "whyContact">
-      <p>The International Society for Universal Dialogue was founded in Warsaw, Poland in 1989. ISUD is a philosophical society dedicated to promoting international and intercultural dialogue among an ever-wider segment of humanity. </p>
-      <p>Pursuant to this, your contributions can help us better connect with you, our primary audience and mission. Please feel free to send us critiques, ideas or thoughts related to ISUD and our mission.</p>
-      <button id="contact-button">Contact Us</button>
-    </section>
-    <section id = "contact">
-	    <form id="contact-form" method="POST" action="https://example.com/dip_dish" autocomplete="on">
-        <div class="form-group">
-          <label for="firstname">First Name:</label>
-          <input id="firstname" type="text" name="firstname" placeholder="Your first name" required>
-        </div>
-        <div class="form-group">
-          <label for="lastname">Last Name:</label>
-          <input id="lastname" type="text" name="lastname" placeholder="Your last name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input id="email" type="email" name="email" placeholder="paige@example.com" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" class="contact-textarea"></textarea>
-        </div>
-        <button type="submit" onclick="return confirmSubmit()">Send Message</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p id="copyright">&copy; 2023 ITMD 362 Project12-Dip_dish. All rights reserved.</p>
-  </footer>
-
-  
-</body>
+        </a>
+      </div>
+    </nav>
+		
+    <main>
+      <section id = "whyContact">
+        <p>The International Society for Universal Dialogue was founded in Warsaw, Poland in 1989. ISUD is a philosophical society dedicated to promoting international and intercultural dialogue among an ever-wider segment of humanity. </p>
+        <p>Pursuant to this, your contributions can help us better connect with you, our primary audience and mission. Please feel free to send us critiques, ideas or thoughts related to ISUD and our mission.</p>
+        <button id="contact-button">Contact Us</button>
+      </section>
+      <section id = "contact">
+        <form id="contact-form" method="POST" action="https://example.com/dip_dish" autocomplete="on">
+          <div class="form-group">
+            <label for="firstname">First Name:</label>
+            <input id="firstname" type="text" name="firstname" placeholder="Your first name" required>
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" type="text" name="lastname" placeholder="Your last name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="paige@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="contact-textarea"></textarea>
+          </div>
+          <button type="submit" onclick="return confirmSubmit()">Send Message</button>
+        </form>
+      </section>
+    </main>
+		
+    <footer>
+      <p id="copyright">&copy; 2023 ITMD 362 Project12-Dip_dish. All rights reserved.</p>
+    </footer>
+		
+  </body>
 </html>

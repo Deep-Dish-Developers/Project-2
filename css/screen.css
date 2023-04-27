@@ -314,15 +314,6 @@ footer {
   color: #498630;
 }
 
-/*
-input[type="text"], textarea {
-    background-color: #f1f1f1;
-}
-
-input[type="text"]:focus, textarea:focus {
-    background-color: #ffffff;
-}
-*/
 
 
 @media screen and (min-width: 768px) {
