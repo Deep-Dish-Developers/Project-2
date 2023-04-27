@@ -124,6 +124,9 @@ header h1 {
 .topnav {
   overflow: hidden;
   position: relative;
+  background-color: #498630;
+  color: #F1E2CA;
+  border: none;
 }
 
 .topnav #myLinks{
@@ -182,7 +185,7 @@ nav a:hover {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #498630;
   color: white;
 }
 
