@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   color: #0C2D44;
@@ -59,7 +59,6 @@ label {
   font-weight: bold;
   margin-bottom: 5px;
 }
-
 
 input[type="text"]:focus,
 textarea:focus,
@@ -184,8 +183,59 @@ nav a.icon {
   top: 0;
 }
 
+.board-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.board-member img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.board-member h2 {
+	font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+	  text-align: left;
+}
+
+.board-member p {
+  font-size: 0.7rem;
+  margin: 5px 0 0;
+  color: #666;
+}
+
+
+
 ::-webkit-input-placeholder {
   font-size: 12px;
+}
+
+.about_page section:not(:first-of-type) {
+  display: none;
+}
+
+.about_page div{
+	margin-top: 14px;
+}
+
+.about_page button {
+  background-color: #498630;
+  color: #F1E2CA;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.about_page button:hover {
+  background-color: #F1E2CA;
+  color: #498630;
 }
 
 .inactive a {
@@ -328,6 +378,10 @@ footer {
     text-align: center;
     height: 40px;
   }
+	
+	h2 {
+  font-size: 1.3rem;
+}
 
   p {
     font-size: 1.25rem;
@@ -341,6 +395,7 @@ footer {
     font-size: 1rem;
   }
 
+	
   main {
     padding: 15px;
   }
@@ -396,6 +451,20 @@ footer {
     text-decoration: none;
     font-weight: bold;
   }
+	
+	.board-member img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.board-member h2 {
+	font-size: 1.2rem;
+}
+
+.board-member p {
+  font-size: 1rem;
+}
 
   #whyContact {
     width: 80%;
@@ -406,6 +475,9 @@ footer {
     width: 50px;
     height: 50px;
   }
+	.about_page div{
+	margin-top: 32px;
+}
 
 }
 
@@ -421,6 +493,10 @@ footer {
   p {
     font-size: 1.3rem;
   }
+	
+		h2 {
+  font-size: 1.5rem;
+}
 
   form {
     max-width: 950px;
@@ -441,6 +517,14 @@ footer {
     margin: 0 20% 0 20%;
     font-size: 25px;
   }
+	
+	.board-member h2 {
+	font-size: 1.3rem;
+}
+
+.board-member p {
+  font-size: 1.1rem;
+}
 
   .topnav #myLinks {
     display: block;
