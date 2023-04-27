@@ -42,6 +42,7 @@ img {
 
 main {
   padding: 20px;
+	margin-top: 20px;
 }
 
 form {
@@ -497,7 +498,7 @@ footer {
 		h2 {
   font-size: 1.5rem;
 }
-
+	
   form {
     max-width: 950px;
   }
@@ -563,5 +564,6 @@ footer {
     width: 100px;
     height: 100px;
   }
-
+	
+	
 }
