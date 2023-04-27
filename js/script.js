@@ -10,7 +10,7 @@ function confirmSubmit() {
 const contactForm = document.getElementById('contact');
 const contactButton = document.getElementById('contact-button');
 
-contactButton.addEventListener('click', function() {
+contactButton.addEventListener('click', function () {
   contactForm.classList.toggle('hidden');
 });
 
@@ -22,6 +22,4 @@ function dropDownMenu() {
   } else {
     x.style.display = "block";
   }
-} 
-
-
+}
