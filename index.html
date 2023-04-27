@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" async></script>
+    <script src="js/site.js"></script>
     <link rel="stylesheet" href="css/meyers-reset.css">
     <link rel="stylesheet" href="css/screen.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home | ISUD</title>
   </head>
 	
@@ -17,16 +20,23 @@
       <img src="media/logo.png" alt="The logo of the ISUD">
       <h1 class="header">The International Society for Universal Dialogue</h1>
     </header>
-		
     <nav>
-  		<ul>
-      	<li class="active"><a href="index.html">Home</a></li>
-      	<li><a href="about-us.html">About</a></li>
-      	<li><a href="#">Events</a></li>
-      	<li><a href="#">Journal</a></li>
-      	<li><a href="#">Membership</a></li>
-      	<li><a href="contact.html">Contact</a></li>
-    	</ul>
+      <div class="topnav">
+        <a href="index.html" class="active">ISUD</a>
+        <div id="myLinks">
+          <ul>
+            <li><a href="index.html" class = "active">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
 		
     <main class="index_main">
