@@ -1,6 +1,7 @@
 body{
   font-family: 'Montserrat', 'Roboto', sans-serif;
   font-weight: 300;
+	
 }
 
 h1{
@@ -30,6 +31,7 @@ p {
   margin-top: 20px;
   clear: both;
 }
+
 
 img {
   object-fit: cover;
@@ -174,14 +176,48 @@ nav a.icon {
 	color: white;
 }
 
+/*
+.about_page {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+*/
+
+.about_page {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+	margin: 5%;
+}
+
+.about_images {
+  display: flex;
+  justify-content: center;
+	margin-top: 3%;
+}
+
 .about {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   object-fit: cover;
-  float: left;
+
   margin-right: 10px;
   margin-bottom: 20px;
+}
+
+.about_page ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about_page ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  margin-left: 25px;
 }
 
 nav a:hover {
@@ -269,6 +305,8 @@ footer {
   background-color: #F1E2CA;
   color: #498630;
 }
+
+
 
 
 @media screen and (min-width: 768px) {
