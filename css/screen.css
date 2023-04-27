@@ -373,10 +373,12 @@ footer {
     position: static;
   }
   .topnav a {
+    text-align: center;
     position: static;
     float: left;
     display: block;
-    padding: 20px 4.5%;
+    width: 16.666%;
+    padding: 20px 0%;
   }
   .topnav ul{
     position: static;
@@ -385,6 +387,9 @@ footer {
     position: static;
     width: 100%;
     margin: 25px 0;
+  }
+  nav a.ISUD{
+    display: none;
   }
   .topnav a.icon {
     display: none;
