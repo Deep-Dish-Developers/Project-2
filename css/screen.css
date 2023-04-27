@@ -121,6 +121,23 @@ header h1 {
   margin-top: 0;
 }
 
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks{
+  display: none;
+}
+
+.topnav a.icon {
+  background: gainsboro;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 nav {
   overflow: hidden;
   background-color: #FFFFFF;
@@ -285,7 +302,6 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0;
-  float: right;
   }
 
 	nav li {
