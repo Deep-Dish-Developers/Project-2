@@ -293,33 +293,32 @@ footer {
     width: 25%;
     margin: 25px;
     overflow-x: hidden;   
-    right: 0;
   }
 
   nav img {
-  height: 40px;
+    height: 40px;
   }
 
   nav ul {
-  display: block;
-  justify-content: left;
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  z-index: 1;
-  background: gainsboro;
-  position: fixed;
+    display: block;
+    justify-content: left;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    background: gainsboro;
+    position: fixed;
   }
 
 	nav li {
-  display: inline-block;
+    display: inline-block;
 	}
 
-	nav a {
-	text-decoration: none;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
+  nav a {
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
 	}
 
   nav ul li {
@@ -346,6 +345,9 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  body{
+    z-index: 0;
+  }
 	h1{
 		font-size: 2.4rem;
 	}
@@ -354,14 +356,36 @@ footer {
   }
 
 	header {
-	width: 80%;
-	margin: 40px auto 30px auto;
+	  width: 80%;
+	  margin: 40px auto 30px auto;
 	}
 
   #whyContact{
     width: 60%;
     margin: 0 20% 0 20%;
     font-size: 25px;
+  }
+  .topnav #myLinks {
+    display: block;
+    position: static;
+  }
+  .topnav a {
+    position: static;
+    float: left;
+    display: block;
+    padding: 20px 4.5%;
+  }
+  .topnav ul{
+    position: static;
+  }
+  nav{
+    position: static;
+    width: 100%;
+    margin: 25px 0;
+  }
+  .topnav a.icon {
+    display: none;
+    z-index: 0;
   }
 
 
