@@ -29,8 +29,9 @@ h3 {
 
 p {
   margin-top: 20px;
-  clear: both;
+  clear: both;	font-size: 1rem;
 }
+
 
 
 img {
@@ -332,7 +333,14 @@ input[type="text"]:focus, textarea:focus {
     text-align: center;
     height: 40px;
   }
-
+	p {
+		font-size: 1.25rem;
+	}
+	
+	li {
+		font-size: 1.25rem;
+	}
+	
   main {
     padding: 15px;
   }
@@ -405,6 +413,10 @@ input[type="text"]:focus, textarea:focus {
   }
 	h1{
 		font-size: 2.4rem;
+	}
+	
+		p {
+		font-size: 1.4rem;
 	}
   form {
     max-width: 950px;
