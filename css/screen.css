@@ -61,6 +61,17 @@ label {
   margin-bottom: 5px;
 }
 
+
+input[type="text"]:focus, textarea:focus,
+input[type="email"]:focus, textarea:focus
+ {
+    background-color: #ffffff;
+}
+
+.contact-textarea {
+  background-color: #f1f1f1;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -75,7 +86,7 @@ select {
   box-sizing: border-box;
   font-size: 16px;
   margin-top: 5px;
-  background-color: #c1c1c1;
+  background-color: #f1f1f1;
 }
 
 textarea {
@@ -298,7 +309,15 @@ footer {
   color: #498630;
 }
 
+/*
+input[type="text"], textarea {
+    background-color: #f1f1f1;
+}
 
+input[type="text"]:focus, textarea:focus {
+    background-color: #ffffff;
+}
+*/
 
 
 @media screen and (min-width: 768px) {
